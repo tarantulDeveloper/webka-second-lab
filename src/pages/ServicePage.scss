@@ -1,0 +1,16 @@
+.myCardHeader {
+  max-width: min-content;
+  max-height: min-content;
+  position: relative;
+  margin: auto;
+  padding: 0;
+
+  .number {
+    font-size: 10vh;
+  }
+
+  .sup {
+    position: absolute;
+    top: 0;
+  }
+}

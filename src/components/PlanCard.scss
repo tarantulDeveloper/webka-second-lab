@@ -1,0 +1,23 @@
+.myCard {
+  position: relative;
+
+  .offer {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: green;
+    width: 0;
+    visibility: hidden;
+    transform: scaleX(0);
+  }
+
+  :hover {
+    .offer {
+      visibility: visible;
+      width: 100%;
+      transition: .6s;
+      transform:scaleX(1);
+    }
+  }
+
+}
